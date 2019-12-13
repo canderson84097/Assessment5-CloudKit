@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		2CC36B4D23A3ED18000C8FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B4C23A3ED18000C8FB7 /* AppDelegate.swift */; };
 		2CC36B4F23A3ED18000C8FB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B4E23A3ED18000C8FB7 /* SceneDelegate.swift */; };
-		2CC36B5123A3ED18000C8FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B5023A3ED18000C8FB7 /* ViewController.swift */; };
 		2CC36B5423A3ED18000C8FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC36B5223A3ED18000C8FB7 /* Main.storyboard */; };
 		2CC36B5623A3ED1C000C8FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC36B5523A3ED1C000C8FB7 /* Assets.xcassets */; };
 		2CC36B5923A3ED1C000C8FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC36B5723A3ED1C000C8FB7 /* LaunchScreen.storyboard */; };
+		2CC36B6323A3ED58000C8FB7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC36B6223A3ED58000C8FB7 /* CloudKit.framework */; };
+		2CC36B6A23A3F040000C8FB7 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B6923A3F040000C8FB7 /* ContactListTableViewController.swift */; };
+		2CC36B6C23A3F0D5000C8FB7 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B6B23A3F0D5000C8FB7 /* ContactDetailViewController.swift */; };
+		2CC36B6E23A3F104000C8FB7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B6D23A3F104000C8FB7 /* Contact.swift */; };
+		2CC36B7023A3F3E0000C8FB7 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC36B6F23A3F3E0000C8FB7 /* ContactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CC36B4923A3ED18000C8FB7 /* iCloudAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC36B4C23A3ED18000C8FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC36B4E23A3ED18000C8FB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CC36B5023A3ED18000C8FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CC36B5323A3ED18000C8FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CC36B5523A3ED1C000C8FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC36B5823A3ED1C000C8FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC36B5A23A3ED1C000C8FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC36B6023A3ED56000C8FB7 /* iCloudAssessment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudAssessment.entitlements; sourceTree = "<group>"; };
+		2CC36B6223A3ED58000C8FB7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		2CC36B6923A3F040000C8FB7 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		2CC36B6B23A3F0D5000C8FB7 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		2CC36B6D23A3F104000C8FB7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		2CC36B6F23A3F3E0000C8FB7 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC36B6323A3ED58000C8FB7 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +52,7 @@
 			children = (
 				2CC36B4B23A3ED18000C8FB7 /* iCloudAssessment */,
 				2CC36B4A23A3ED18000C8FB7 /* Products */,
+				2CC36B6123A3ED58000C8FB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,67 @@
 		2CC36B4B23A3ED18000C8FB7 /* iCloudAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				2CC36B6023A3ED56000C8FB7 /* iCloudAssessment.entitlements */,
+				2CC36B6823A3EDD2000C8FB7 /* UI */,
+				2CC36B6723A3EDCC000C8FB7 /* Models */,
+				2CC36B6623A3EDC0000C8FB7 /* ModelControllers */,
+				2CC36B6523A3EDB0000C8FB7 /* ViewControllers */,
+				2CC36B6423A3ED7D000C8FB7 /* Resources */,
+			);
+			path = iCloudAssessment;
+			sourceTree = "<group>";
+		};
+		2CC36B6123A3ED58000C8FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC36B6223A3ED58000C8FB7 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CC36B6423A3ED7D000C8FB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2CC36B4C23A3ED18000C8FB7 /* AppDelegate.swift */,
 				2CC36B4E23A3ED18000C8FB7 /* SceneDelegate.swift */,
-				2CC36B5023A3ED18000C8FB7 /* ViewController.swift */,
-				2CC36B5223A3ED18000C8FB7 /* Main.storyboard */,
 				2CC36B5523A3ED1C000C8FB7 /* Assets.xcassets */,
 				2CC36B5723A3ED1C000C8FB7 /* LaunchScreen.storyboard */,
 				2CC36B5A23A3ED1C000C8FB7 /* Info.plist */,
 			);
-			path = iCloudAssessment;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CC36B6523A3EDB0000C8FB7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC36B6923A3F040000C8FB7 /* ContactListTableViewController.swift */,
+				2CC36B6B23A3F0D5000C8FB7 /* ContactDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2CC36B6623A3EDC0000C8FB7 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC36B6F23A3F3E0000C8FB7 /* ContactController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		2CC36B6723A3EDCC000C8FB7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CC36B6D23A3F104000C8FB7 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CC36B6823A3EDD2000C8FB7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CC36B5223A3ED18000C8FB7 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC36B5123A3ED18000C8FB7 /* ViewController.swift in Sources */,
+				2CC36B6A23A3F040000C8FB7 /* ContactListTableViewController.swift in Sources */,
 				2CC36B4D23A3ED18000C8FB7 /* AppDelegate.swift in Sources */,
+				2CC36B7023A3F3E0000C8FB7 /* ContactController.swift in Sources */,
+				2CC36B6E23A3F104000C8FB7 /* Contact.swift in Sources */,
+				2CC36B6C23A3F0D5000C8FB7 /* ContactDetailViewController.swift in Sources */,
 				2CC36B4F23A3ED18000C8FB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,9 +350,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudAssessment/iCloudAssessment.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YRVTSSTS2;
-				INFOPLIST_FILE = iCloudAssessment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iCloudAssessment/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iCloudAssessment/iCloudAssessment.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YRVTSSTS2;
-				INFOPLIST_FILE = iCloudAssessment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iCloudAssessment/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
